@@ -1,0 +1,17 @@
+#nav-global li {
+    color:white;
+    DISPLAY:Block;
+    float:left;
+    padding:05px;
+    font-size:14pt;
+}
+#nav-global {
+    padding:01px;
+}
+#H_left {
+float:left;
+background-color: #e9edf3;
+}
+#H_right {
+background-color: #e9edf3;
+}
