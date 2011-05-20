@@ -1,17 +1,30 @@
+body {
+    margin:0 auto;
+}
+#H_left {
+    float:left;
+    background-color: #e9edf3;
+    border:1px solid;
+}
+#H_right {
+    width:450px;
+    margin:0;
+    background-color: #e9edf3;
+    border:1px solid;
+}
 #nav-global li {
     color:white;
     DISPLAY:Block;
     float:left;
-    padding:05px;
-    font-size:14pt;
+    padding:1px;
+    font-size:11pt;
+    font-weight:bold;
 }
 #nav-global {
     padding:01px;
 }
-#H_left {
-float:left;
-background-color: #e9edf3;
-}
-#H_right {
-background-color: #e9edf3;
-}
+a           {text-decoration:none;}
+a:link      {color:red;}
+a:visited   {color:red;}
+a:hover     {color:#4B91AB;}
+a:active    {color:red;}

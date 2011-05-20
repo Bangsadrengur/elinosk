@@ -1,0 +1,35 @@
+body {
+    width:0860px;
+    margin:0 auto;
+}
+#H_left {
+    float:left;
+    background-image:url(gradient.jpg);
+}
+#H_right {
+    width:470px;
+    float:left;
+    background-image:url(gradient.jpg);
+}
+#signature {
+    margin:10px;
+}
+#nav-global {
+    padding:15px 0px 15px 0px;
+    margin:13px 0px 20px 0px;
+    height:20px;
+    border-top:1px solid;
+    border-bottom:1px solid;
+    border-color:white;
+}
+#nav-global li {
+    float:left;
+    list-style-type:none;
+    padding:1px;
+}
+a           {text-decoration:none;}
+a:link      {color:white;}
+a:visited   {color:white;}
+a:hover     {color:#4B91AB;}
+a:active    {color:red;}
+
