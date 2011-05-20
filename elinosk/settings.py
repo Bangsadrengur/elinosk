@@ -1,4 +1,6 @@
 # Django settings for elinosk project.
+import os
+DIR_NAME = os.path.dirname(__file__)
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -45,7 +47,7 @@ USE_L10N = True
 
 # Absolute filesystem path to the directory that will hold user-uploaded files.
 # Example: "/home/media/media.lawrence.com/media/"
-MEDIA_ROOT = '/home/heimir/github/webpage/elinosk_dev/static'
+MEDIA_ROOT = 'DIR_NAME/media/'
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash.
@@ -103,7 +105,7 @@ MIDDLEWARE_CLASSES = (
 ROOT_URLCONF = 'elinosk.urls'
 
 TEMPLATE_DIRS = (
-    "../templates"
+    DIR_NAME+ '/templates',
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
@@ -144,4 +146,12 @@ LOGGING = {
         },
     }
 }
+
+TEMPLATE_CONTEXT_PROCESSORS = (
+    'django.core.context_processors.auth',
+    'django.core.context_processors.media',
+    'django.core.context_processors.request',
+    'django.core.context_processors.i18n',
+    'django.contrib.messages.context_processors.messages',
+)
 
