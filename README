@@ -1,1 +1,5 @@
 Rebuild of http://elinosk.com using django and changing design decisions from deprecated features.
+
+Feature thoughts:
+Use jplayer (http://www.jplayer.org/) for audio/video needs.
+Implement a dynamic content zone on page so a static jplayer/media player could be implemented for overall audio play.
