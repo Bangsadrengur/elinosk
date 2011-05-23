@@ -1,49 +1,72 @@
 body {
     background-color:#e9edf3;
-    width:0860px;
-    margin:0 auto;
+    /*width:0860px;*/
+    margin-top:0;
+    margin-bottom:0;
+    margin-left:20px auto;
+    margin-right:20px auto;
 }
 #Allt {
     height:1150px;
-    width:0860px;
+    /*margin-left:0 auto;
+    margin-right:0;auto;*/
+    /*width:0860px;*/
     box-shadow:10px 10px 10px 10px #888;
     border-left:5px solid;
     border-right:5px solid;
     border-color:#F8F8F8;
-    background-image:url(http://127.0.0.1:8000/media/img/gradient.jpg);
+    /* CSS3 generator background image begins */
+    background: #111c2e; /* Old browsers */
+    background: -moz-linear-gradient(top, #111c2e 0%, #355584 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#111c2e), color-stop(100%,#355584)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #111c2e 0%,#355584 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #111c2e 0%,#355584 100%); /* Opera11.10+ */
+    background: -ms-linear-gradient(top, #111c2e 0%,#355584 100%); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#111c2e', endColorstr='#355584',GradientType=0 ); /* IE6-9 */
+    background: linear-gradient(top, #111c2e 0%,#355584 100%); /* W3C */
+    /* CSS3 generator background image end */
+}
+#head {
+margin:0 auto;
 }
 #H_left {
-    float:left;
+    width:390px;
+    height:315px;
     border-bottom:1px solid;
     border-color:white;
+    float:left;
 }
 #H_right {
-    width:470px;
-    float:left;
     border-bottom:1px solid;
     border-color:white;
 }
 #signature {
-    margin:10px;
+    margin:10px auto;
 }
 #nav-global {
     padding:15px 0px 15px 0px;
     margin:13px 0px 20px 0px;
     height:20px;
+    width:900px;
     border-top:1px solid;
     border-bottom:1px solid;
+    border-left:1px solid;
+    border-right:1px solid;
     border-color:white;
 }
 #nav-global li {
     float:left;
     list-style-type:none;
-    padding:1px;
+    padding:0px 5px 0px 5px;
 }
 #B_left {
-    float:left;
+    /*float:left;*/
+    color:white;
+    /*width:550px;*/
 }
 #B_right {
     float:right;
+    clear:right;
 }
 DIV.box {
     height:230px;
@@ -53,7 +76,11 @@ DIV.box {
     border-radius:55px;
     margin:03px;
 }
-a           {text-decoration:none;}
+a {
+    text-decoration:none;
+    font-family:sans-serif;
+    font-weight:bold;
+}
 a:link      {color:white;}
 a:visited   {color:white;}
 a:hover     {color:#4B91AB;}
