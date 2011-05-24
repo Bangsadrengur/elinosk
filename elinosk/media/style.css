@@ -57,6 +57,13 @@ body {
     color:white;
     clear:left;
     margin-left:10px;
+    font-family:sans-serif;
+    font-size:10pt;
+}
+#B_titill {
+    font-family:sans-serif;
+    font-weight:bold;
+    font-size:16pt;
 }
 #B_right {
     float:right;
